@@ -1,5 +1,9 @@
 # ProtoBuf-Net-Test-Harness
 
+1. [WithStockProtoBuf](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withstockprotobuf)
+2. [WithCachedPool](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withcachedpool)
+
+
 ## WithStockProtoBuf
 This test harness creates an object that causes a high frequency of fragmentation on the large object heap when serialized with [**protobuf-net**](https://github.com/mgravell/protobuf-net).
 
