@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B53C29CF-D378-4A5C-8125-865E2BC7DB58}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ProtoBufNetTestHarness</RootNamespace>
-    <AssemblyName>ProtoBuf-Net-Test-Harness</AssemblyName>
+    <RootNamespace>WithStockProtoBuf</RootNamespace>
+    <AssemblyName>WithStockProtoBuf</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoBuf-Net-Test-Harness", "ProtoBuf-Net-Test-Harness\ProtoBuf-Net-Test-Harness.csproj", "{B53C29CF-D378-4A5C-8125-865E2BC7DB58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithStockProtoBuf", "WithStockProtoBuf\WithStockProtoBuf.csproj", "{B53C29CF-D378-4A5C-8125-865E2BC7DB58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
