@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using ProtoBuf.Meta;
 
-namespace WithStockProtoBuf
+namespace WithCachedPool
 {
     public class Program
     {
@@ -23,7 +27,7 @@ namespace WithStockProtoBuf
 
             var outerResults = new Result[length];
             var innerResults = new Result[length];
-            
+
             for (var index = 0; index < length; index++)
             {
                 var result = new Result
@@ -56,6 +60,7 @@ namespace WithStockProtoBuf
                     runtimeTypeModel.Serialize(stream, response);
                 }
             }
+
         }
     }
 }

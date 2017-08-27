@@ -1,6 +1,6 @@
 ﻿using ProtoBuf;
 
-namespace WithStockProtoBuf
+namespace WithCachedPool
 {
     [ProtoContract]
     public class MainResponse
