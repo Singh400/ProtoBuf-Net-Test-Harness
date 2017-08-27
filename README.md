@@ -1,9 +1,5 @@
 # ProtoBuf-Net-Test-Harness
 
-.. contents::
-
-.. section-numbering::
-
 ## WithStockProtoBuf
 This test harness creates an object that causes a high frequency of fragmentation on the large object heap when serialized with [**protobuf-net**](https://github.com/mgravell/protobuf-net).
 
@@ -23,7 +19,3 @@ Iterations|WithStockProtoBuf (MB)|WithCachedPool (MB)
 100000|80|8.7
 200000|160|17
 300000|321|34
-
-
-Empty headers and header un-setting
------------------------------------
