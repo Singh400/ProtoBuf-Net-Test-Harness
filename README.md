@@ -1,7 +1,5 @@
 # ProtoBuf-Net-Test-Harness
 
-.. contents::
-
 ## WithStockProtoBuf
 This test harness creates an object that causes a high frequency of fragmentation on the large object heap when serialized with [**protobuf-net**](https://github.com/mgravell/protobuf-net).
 
@@ -21,22 +19,3 @@ Iterations|WithStockProtoBuf (MB)|WithCachedPool (MB)
 100000|80|8.7
 200000|160|17
 300000|321|34
-
-
-Main features
-=============
-
-* Expressive and intuitive syntax
-* Formatted and colorized terminal output
-* Built-in JSON support
-* Forms and file uploads
-* HTTPS, proxies, and authentication
-* Arbitrary request data
-* Custom headers
-* Persistent sessions
-* Wget-like downloads
-* Python 2.6, 2.7 and 3.x support
-* Linux, Mac OS X and Windows support
-* Plugins
-* Documentation
-* Test coverage
