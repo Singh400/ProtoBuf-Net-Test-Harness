@@ -19,3 +19,7 @@ Iterations|WithStockProtoBuf (MB)|WithCachedPool (MB)
 100000|80|8.7
 200000|160|17
 300000|321|34
+
+
+Empty headers and header un-setting
+-----------------------------------
