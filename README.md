@@ -1,12 +1,12 @@
 # ProtoBuf-Net-Test-Harness
 
-Iterations|[WithStockProtoBuf](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withstockprotobuf) (MB)|[WithCachedPool](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withcachedpool) (MB)
------------- | ------------- | -------------
-10000|8.8|0.9
-50000|39|4.3
-100000|80|8.7
-200000|160|17
-300000|321|34
+Iterations|[WithStockProtoBuf](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withstockprotobuf) (MB)|[WithCachedPool](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withcachedpool) (MB) |[WithArrayPool](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#witharraypool) (MB)
+------------ | ------------- | ------------- | -------------
+10000|8.8|0.9|0.9
+50000|39|4.3|4.3
+100000|80|8.7|8.7
+200000|160|17|17
+300000|321|34|34
 
 ## WithStockProtoBuf
 This test harness creates an object that causes a high frequency of fragmentation on the large object heap when serialized with [**protobuf-net**](https://github.com/mgravell/protobuf-net).
@@ -23,7 +23,7 @@ https://github.com/mgravell/protobuf-net/issues/301#issuecomment-325208496 expla
 _WithStockProtoBuf_ is on the left, _WithCachedPool_ on the right.
 
 ## WithArrayPool
-This implementation of protobuf-net is backed by [**System.Buffers.ArrayPool**](https://www.nuget.org/packages/System.Buffers/) and shows the same reduction in LOH allocations.
+This implementation of protobuf-net is backed by [**System.Buffers.ArrayPool**](https://www.nuget.org/packages/System.Buffers/) and shows the same reduction in LOH allocations as the WithCachedPool version.
 
 ![withstockprotobufnet_vs_witharraypool](https://user-images.githubusercontent.com/1906778/29785987-65f1cb78-8c21-11e7-8c98-5203baefb932.png)
 
