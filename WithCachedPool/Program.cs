@@ -47,16 +47,13 @@ namespace WithCachedPool
                 }
             };
 
-            var ticks = DateTimeOffset.Now.Ticks;
-
             for (var i = 0; i < 10; i++)
             {
-                using (var stream = File.Create($"{ticks}.bin"))
+                using (var stream = File.Create(@"..\..\..\Output\WithCachedPool.bin"))
                 {
                     runtimeTypeModel.Serialize(stream, response);
                 }
             }
-
         }
     }
 }

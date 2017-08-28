@@ -47,11 +47,9 @@ namespace WithStockProtoBuf
                 }
             };
 
-            var ticks = DateTimeOffset.Now.Ticks;
-
             for (var i = 0; i < 10; i++)
             {
-                using (var stream = File.Create($"{ticks}.bin"))
+                using (var stream = File.Create(@"..\..\..\Output\WithStockProtoBuf.bin"))
                 {
                     runtimeTypeModel.Serialize(stream, response);
                 }
