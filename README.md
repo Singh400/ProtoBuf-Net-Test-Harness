@@ -20,4 +20,11 @@ https://github.com/mgravell/protobuf-net/issues/301#issuecomment-325208496 expla
 
 ![withstockprotobufnet_vs_withcachedpool](https://user-images.githubusercontent.com/1906778/29752872-ec7df3a2-8b5d-11e7-9be4-239a59b06675.png)
 
+_WithStockProtoBuf_ is on the left, _WithCachedPool_ on the right.
 
+## WithArrayPool
+This implementation of protobuf-net is backed by [**System.Buffers.ArrayPool**](https://www.nuget.org/packages/System.Buffers/) and shows the same reduction in LOH allocations.
+
+![withstockprotobufnet_vs_witharraypool](https://user-images.githubusercontent.com/1906778/29785987-65f1cb78-8c21-11e7-8c98-5203baefb932.png)
+
+_WithStockProtoBuf_ is on the left, _WithArrayPool_ on the right.
