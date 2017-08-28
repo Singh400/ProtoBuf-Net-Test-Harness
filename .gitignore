@@ -1,4 +1,5 @@
 !WithCachedPool/protobuf-net.dll
+/Output/*
 
 **/bin/
 **/obj/
