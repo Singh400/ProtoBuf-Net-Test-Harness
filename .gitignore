@@ -1,3 +1,5 @@
+!WithArrayPool/protobuf-net.dll
+!WithArrayPool/System.Buffers.dll
 !WithCachedPool/protobuf-net.dll
 /Output/*
 
