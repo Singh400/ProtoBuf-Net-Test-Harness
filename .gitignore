@@ -1,3 +1,5 @@
+!WithCachedPool/protobuf-net.dll
+
 **/bin/
 **/obj/
 .vs
