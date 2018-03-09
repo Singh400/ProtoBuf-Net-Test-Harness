@@ -1,12 +1,12 @@
 # ProtoBuf-Net-Test-Harness
 
-Iterations|[WithStockProtoBuf](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withstockprotobuf) (MB)|[WithCachedPool](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withcachedpool) (MB) |[WithArrayPool](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#witharraypool) (MB)
------------- | ------------- | ------------- | -------------
-10,000|8.8|0.9|0.9
-50,000|39|4.3|4.3
-100,000|80|8.7|8.7
-200,000|160|17|17
-300,000|321|34|34
+Iterations|[WithStockProtoBuf](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withstockprotobuf) (MB)|[WithCachedPool](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withcachedpool) (MB) |[WithArrayPool](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#witharraypool) (MB) | [WithGroups](https://github.com/Singh400/ProtoBuf-Net-Test-Harness#withgroups) (MB) |
+------------ | ------------- | ------------- | ------------- | -------------
+10,000|8.8|0.9|0.9|0.0
+50,000|39|4.3|4.3|0.4
+100,000|80|8.7|8.7|0.8
+200,000|160|17|17|1.5
+300,000|321|34|34|2.3
 
 ## WithStockProtoBuf
 This test harness creates an object that causes a high frequency of fragmentation on the large object heap when serialized with [**protobuf-net**](https://github.com/mgravell/protobuf-net).
