@@ -28,3 +28,6 @@ This implementation of protobuf-net is backed by [**System.Buffers.ArrayPool**](
 ![withstockprotobufnet_vs_witharraypool](https://user-images.githubusercontent.com/1906778/29785987-65f1cb78-8c21-11e7-8c98-5203baefb932.png)
 
 _WithStockProtoBuf_ is on the left, _WithArrayPool_ on the right.
+
+## WithGroups
+Large Object Heap (LOH) allocation and fragmentation is caused when ProtoBuf is left in it's default configuration. If you enable groups then LOH allocation and fragmentation will be reduced to nothing. For more detail see [this comment](https://github.com/mgravell/protobuf-net/issues/301#issuecomment-370178685) and [this StackOverflow question](https://stackoverflow.com/q/48358142).
